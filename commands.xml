@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <tag function="Source" name="iTunes" command="osascript AirfoilSource.scpt iTunes"/>
+  <tag function="Source" name="AirfoilSpeakers" command="osascript AirfoilSource.scpt 'Airfoil Speakers'"/>
+  <tag function="Speaker" name="Kitchen" command="osascript AirfoilSpeaker.scpt Kitchen"/>
+  <tag function="Speaker" name="Receiver" command="osascript AirfoilSpeaker.scpt Receiver"/>
+  <tag function="Shell" name="reboot" command="reboot now"/>
+</root>
